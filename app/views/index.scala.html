@@ -1,9 +1,11 @@
 @(message: String)
 
-@main("Welcome to Play Framework") {
+@main("ScalaHack") {
 
-    <div class="well">
-        <h1>@message</h1>
+    <div class="alert alert-info">
+        Scala Code Editor
     </div>
-
+    <div id="editor">
+        <textarea rows="20" class="span12" placeholder="code"></textarea>
+    </div>
 }

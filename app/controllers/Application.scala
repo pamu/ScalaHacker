@@ -6,7 +6,7 @@ import play.api.libs.concurrent.Execution.Implicits.defaultContext
 
 object Application extends Controller {
   def index = Action {
-    Ok(views.html.index("Hello Play Framework"))
+    Ok(views.html.index("Scala Hack"))
   }
   def test = Action.async {
     val wsResponse = Utils.submit(
