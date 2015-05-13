@@ -1,0 +1,2 @@
+# ScalaHacker
+Scala code editor
