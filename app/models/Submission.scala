@@ -5,7 +5,7 @@ package models
  */
  case class Submission(source: String,
                        lang: Int,
-                       testcases: String,
+                       testcases: List[String],
                        api_key: String,
                        waitParam: Boolean,
                        callback_url: String,
