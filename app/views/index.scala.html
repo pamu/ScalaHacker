@@ -1,18 +1,18 @@
 @(message: String)
 
-@main("ScalaHacker") {
-
-    <div class="alert alert-info">
-        Scala Code Editor
-    </div>
-    <div class="well" id="msg_center"></div>
-    <textarea id="code_box" rows="20" class="span12" placeholder="Code here"></textarea>
-    <textarea id="testcases_box" rows="10" class="span6" placeholder="test cases"></textarea>
+@main("ScalaHacker (Scala Code Editor)") {
+    <div id="msg_center"></div>
     <div>
-        <button id="done" class="btn btn-default">Submit</button>
+        <textarea id="code_box" rows="15" class="span12" placeholder="Scala Code here"></textarea>
+    </div>
+    <div>
+        <textarea id="testcases_box" rows="5" class="span4" placeholder="Test Cases"></textarea>
+    </div>
+    <div>
+        <button id="done" class="btn btn-success">Compile and Run</button>
     </div>
     <div id="well alert alert-info">
         <legend>Output</legend>
-        <div id="output"></div>
+        <div id="output" class="well"></div>
     </div>
 }

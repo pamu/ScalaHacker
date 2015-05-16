@@ -1,6 +1,5 @@
 package controllers
 
-import models.Submission
 import play.api.libs.json._
 import play.api.mvc.{Action, Controller}
 import utils.Utils
