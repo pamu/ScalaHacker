@@ -1,9 +1,9 @@
 $(function() {
-    var source = $("textarea#code_box").val();
-    var testcases = $("#testcases_box").val();
-    $("#done").click(function() {
-         if (source.length > 0) {
-                console.log(source);
+    $('#done').click(function() {
+         var source = $('#code_box').val();
+         var testcases = $('#testcases_box').val();
+         if (source.trim().length > 0) {
+                $.
             } else {
                 $("#msg_center").html('<span class="alert alert-danger">source cannot be empty.</span>')
             }
